@@ -1,0 +1,59 @@
+body{
+    background-image: url(sss.jpg) ;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    top: 0px;
+    
+}
+ul li{
+    float: left;
+    height: 35px;
+    
+    background-color:black;
+    opacity: .7;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    
+   
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    font-style: bold;
+    font-size: 17px;
+}
+ul li a:hover{
+    background-color:#008000  ;
+    opacity: 0.8;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:active{
+    background-color: red;
+}
+iframe{
+    margin-top: 100px;
+}
+
+
+#head{
+    
+    width: 100%;
+}
+
+
+
